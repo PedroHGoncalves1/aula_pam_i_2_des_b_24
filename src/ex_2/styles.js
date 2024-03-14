@@ -5,10 +5,12 @@ const styles = StyleSheet.create({
         borderWidth: 1, 
         padding: 10,      
         width: 300, 
-        marginBottom: 8,   
+        marginBottom: 8, 
+        alignItems:'center',  
     },  
     mensagem: {
         fontSize: 20, 
+        
     },
 });
 
