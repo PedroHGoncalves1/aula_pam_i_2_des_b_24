@@ -17,7 +17,8 @@ export default function Atividade1 () {
                 Atividade 1
             </Text>
 
-            <Ola />
-            </View>
+            <Ola>Pedro</Ola>
+            <Ola>Henrique</Ola>
+         </View>
     );
 };
