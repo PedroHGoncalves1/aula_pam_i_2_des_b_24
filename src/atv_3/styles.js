@@ -1,3 +1,4 @@
+import { startTransition } from "react";
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
@@ -6,10 +7,23 @@ const styles = StyleSheet.create({
         backgroundColor: 'white',
         width: '100%',
         borderRadius: 20,
-        alignItems: 'center',
+        
         padding: 20,
+        alignItems:'center',
+       
         
         
+    },
+    containertodo: {
+        flexDirection:'column'
+    },
+    container1: {
+        flex: 1,
+        flexDirection: 'row'
+    },
+    botaozerar: {
+        marginLeft:'40%',
+    
     },
     titulo: {
         fontSize: 30,
@@ -20,13 +34,14 @@ const styles = StyleSheet.create({
         color: 'white',
     },
     botao: {
-        width:'70%',
+        width:'100%',
         padding: 10,
         margin: 20,
         backgroundColor: 'black',
         alignItems: 'center',
         justifyContent: 'center',
-        borderRadius: 20
+        borderRadius: 20,
+        height: '50%'
     },
 });
 
