@@ -23,20 +23,20 @@ export default function Atividade_3(){
             <View style={styles.containertodo}>
                 <View style={styles.container1}>
                     
-                    <TouchableOpacity style={styles.botao} onPress={() => diminuir()} >
+                    <TouchableOpacity style={[styles.botao, styles.botaocontainer]} onPress={() => diminuir()} >
                         <text style={styles.txtbotao} >-</text>
                     </TouchableOpacity>
                     <Text style={styles.titulo}>{numero}</Text>
-                    <TouchableOpacity style={styles.botao} onPress={() => incrementar()}>
+                    <TouchableOpacity style={[styles.botao, styles.botaocontainer]} onPress={() => incrementar()}>
                         <Text style={styles.txtbotao}>+</Text>
                     </TouchableOpacity>
                 </View>
-                <View style={styles.botaozerar}>
+            
 
                     <TouchableOpacity style={styles.botao}>
                         <Text style={styles.txtbotao} onPress={() => zerar()}>Zerar</Text>
                     </TouchableOpacity>
-                </View>
+  
             </View>
         </View>
     );

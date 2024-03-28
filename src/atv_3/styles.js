@@ -3,38 +3,31 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     container: {
+        flex: 1,
        
         backgroundColor: 'white',
         width: '100%',
         alignItems: 'center',
         
         padding: 20,
+        justifyContent:'center'
         
        
         
         
     },
-    containertodo: {
-           
-        
-      
+    containertodo: {   
+        alignItems: 'center',
         
     },
     container1: {
-       flexDirection: 'row',
-       alignItems: 'center',
-       just
-       
-        
-       
-    },
-    botaozerar: {
-        
-
-        
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center'
     
-   
+       
     },
+
     titulo: {
         fontSize: 30,
         fontWeight: 'bold',
@@ -44,15 +37,19 @@ const styles = StyleSheet.create({
         color: 'white',
     },
     botao: {
-        width:'100%',
+        width:'80%',
         padding: 10,
-        margin: 20,
+        marginHorizontal: 20,
         backgroundColor: 'black',
         alignItems: 'center',
         justifyContent: 'center',
         borderRadius: 20,
         height: '50%'
     },
+    botaocontainer: {
+        width:'50%',
+        margin:10,
+    }
 });
 
 export default styles;
