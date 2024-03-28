@@ -15,15 +15,21 @@ const styles = StyleSheet.create({
         
     },
     containertodo: {
-        flexDirection:'column'
+        
+      
+        
     },
     container1: {
         flex: 1,
-        flexDirection: 'row'
+        flexDirection: 'row',
+        alignItems:'center'
+       
     },
     botaozerar: {
-        marginLeft:'40%',
+
+        alignItems:'center'
     
+   
     },
     titulo: {
         fontSize: 30,
