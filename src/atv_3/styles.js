@@ -3,31 +3,35 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
+       
         backgroundColor: 'white',
         width: '100%',
-        borderRadius: 20,
+        alignItems: 'center',
         
         padding: 20,
-        alignItems:'center',
+        
        
         
         
     },
     containertodo: {
+           
         
       
         
     },
     container1: {
-        flex: 1,
-        flexDirection: 'row',
-        alignItems:'center'
+       flexDirection: 'row',
+       alignItems: 'center',
+       just
+       
+        
        
     },
     botaozerar: {
+        
 
-        alignItems:'center'
+        
     
    
     },
