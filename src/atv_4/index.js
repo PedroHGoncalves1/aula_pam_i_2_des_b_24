@@ -6,7 +6,7 @@ import styles from './styles';
 
 export default function Atividade4 () {
 
-    const [inserirTxt, setNomeCompleto] = useState('Insirir nome e sobrenome')
+    const [inserirTxt, setNomeCompleto] = useState('')
 
     const [txtNome, setNome] = useState ('')
 
