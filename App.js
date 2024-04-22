@@ -12,7 +12,9 @@ import { StyleSheet, View } from 'react-native';
 
 //import Atividade4 from './src/atv_4';
 
-import Exemplo5 from './src/ex_5';
+//import Exemplo5 from './src/ex_5';
+
+import Exemplo5 from './src/atividade5';
 export default function App() {
   return (
     <View style={styles.container}>
