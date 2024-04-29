@@ -13,21 +13,26 @@ export default function Exemplo5() {
     const [n1, setN1] = useState(0);
     const [n2, setN2] = useState(0);
     const [total, setTotal] = useState('');
+    const [sinal, setSinal] = useState('')
 
     function soma() {
         setTotal(parseFloat(n1) + parseFloat(n2));
+        setSinal('+')
     }
 
     function subtrai() {
         setTotal(parseFloat(n1) - parseFloat(n2));
+        setSinal('-')
     }
 
     function multiplica() {
         setTotal(parseFloat(n1) * parseFloat(n2));
+        setSinal('*')
     }
 
     function divide() {
         setTotal(parseFloat(n1) / parseFloat(n2));
+        setSinal('/')
     }
 
     function limpa() {
@@ -35,6 +40,8 @@ export default function Exemplo5() {
         setN2(0);
         setTotal('');
     } 
+    
+    }
 
     return (
         <View style={styles.container}>
@@ -63,7 +70,7 @@ export default function Exemplo5() {
                 // keyboardType='numeric'
             />
 
-            <Text style={styles.txtSaida}> + </Text>
+            <Text style={styles.txtSaida}> {sinal} </Text>
 
             <Text style={styles.textLabel}> 2º número </Text>
             <TextInput
@@ -118,4 +125,3 @@ export default function Exemplo5() {
 
         </View>
     );
-}
